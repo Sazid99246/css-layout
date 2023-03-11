@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+fieldset {
+    height: 60vh;
+    width: 60vw;
+}
+
+div {
+    text-align: center;
+}
+
+
+.status-and-date {
+    margin-left: 305px;
+    width: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-terms {
+    margin-left: 305px;
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}
+input[type=text], input[type=email], textarea {
+    width: 215px;
+}
+
+button {
+    width: 80px;
+    background-color: white;
+}
